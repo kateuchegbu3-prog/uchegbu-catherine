@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .body {
+            font-family: ' Arial, sans-serif ';
+            background: #1554d1;
+        }
+         /* Main container*/
+         .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto;
+            background: cloudy rgb(131, 131, 188);
+            border-radius: 10px;
+            overflow: visible;
+            box-shadow: #1554d1;
+
+         }
+         /* Navigation */
+         .navbar {
+            display: flex;
+            justify-content: space-around; 
+            align-items: center;
+            padding: 25px 50px;
+         }
+         .Logo {
+            color: #1554d1;
+            font-size: 28px;
+         }
+         .nav-links {
+            display: flex;
+            gap: 30px;
+         }
+         .nav-links a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+         }.nav-links a :hover {
+            color: red;
+         }
+         /*Home*/
+         
+         
+         .home {
+            display: flex;
+            justify-content: space-around;
+            align-items: center; 
+            padding: 60px;
+            gap: 40px;
+         }
+         .home-text {
+            flex: 1;
+         }
+         .home-text h1 {
+            font-size: 45px;
+            margin-bottom: 20px;
+            color: blue;
+         }
+         .home-text p {
+            font-size: 17px;
+            line-height: 1.7;
+         }
+         .home-text button  {
+          background-color: red;
+          border: none;
+          border-radius: 8px;
+          padding: 12px 24px;
+          box-shadow: 0 4px 12px rgb(111, 0, 246);
+
+         }
+         
+         .home-image {
+            flex: 1;
+            text-align: center;
+
+         }
+         .home-image img {
+            width: 350px;
+            max-width: 100%;
+            border-radius: 20px;
+
+         }
+          .about-text h2 {
+            font-size: 45px;
+            color: blue;
+          } 
+          .about-text h3 {
+            color: blue;
+            font-family: ' Arial, sans-serif;
+            
+          } 
+          .about-text button {
+            background-color: blue;
+          border: none;
+          border-radius: 8px;
+          padding: 12px 24px;
+          box-shadow: 0 4px 12px rgb(111, 0, 246);
+ 
+          }
+           
+   
+         
+         .about-text {
+            font-size: 17px;
+            line-height: 1;
+            margin-left:500px ;
+            position: relative;
+            bottom: 80px;
+            
+
+         }
+         .about-image {
+            display: flex;
+            text-align: start;
+            margin-right: 100px;
+            align-items: center;
+            margin-top: 60px;
+            
+            
+         }
+         .about-image img {
+            width: 300px;
+            max-width:  300px;;
+            object-fit: cover;
+            object-position: center top;
+            border-radius: 100px;
+            display: block;
+            border-style: outset;
+            margin-right: 200px;
+            position: relative;
+            top: 150px;
+            box-shadow: 0 10px 25px rgba(139,111,200,250); 
+            border: 3px solid indigo;
+            transition: 0.3s;
+            stroke-opacity: purple  ;
+            background-image: blue;
+            filter: sepia(blue background-image);
+            
+            
+            }
+            .about-image img:hover {
+               transform: scale(1.5);
+            }
+            
+         
+          
+            
+            
+    
+
+            
+
+         
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+         <nav class="navbar">
+            <h2 class="Logo">Logo</h2>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact</a>
+                
+
+            </div>
+
+         </nav>
+         <!-- Home -->
+          <section class="home" id="home">
+            <div class="home-text">
+                <h1>Hi I'm Catherine Uchegbu</h1>
+                <p>Fullstack developer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa excepturi repellendus dolorum veritatis. Adipisci asperiores libero sit! Optio, similique repellat!</p>
+                
+                <div class="buttons">
+                    <button>pin pad</button>
+                   <button>close pad</button>
+                    
+                  </div>
+                </div>
+                <div class="home-image">
+                    <img src="./multimedia/my female desktop.jpeg" alt="">
+
+                
+                 
+ 
+            </div>
+
+          </section>
+          <!-- About -->
+           <section class="about" id="about">
+            <div class="about-image">
+                <img src="./multimedia/My cloudy picture.jpeg" alt="">
+
+            </div>
+            <div class="about-text">
+                <h2>Why Choose me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem odit quia ab obcaecati ex, reprehenderit atque sunt! Illum, praesentium.</p>
+                <h3>Here are a few features</h3>
+                <ul> 
+                    <li>Fullstack Developer</li>
+                    <li>Backend Developer</li>
+                    <li>Ui Ux Designer</li>
+                    <li>..... ..... ....</li>
+                </ul>
+                <div class="button-1">
+                  <button>HIRE ME</button>
+                   <button>Get CV</button>
+                    
+
+                
+
+            </div>
+
+           </section>
+           <!-- Portfolio -->
+            <section class="portfolio" id="portfolio">
+                <h2></h2>
+                <div class="projects">
+                    <h3></h3>
+                    <p></p>
+
+                </div>
+
+            </section>
+    </div>
+        
+</body>
+</html>
+</head>
+<body>
+    
+</body>
+</html>
